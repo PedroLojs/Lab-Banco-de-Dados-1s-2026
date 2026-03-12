@@ -4,6 +4,5 @@ CREATE TABLE livro (
     autor VARCHAR(128) NOT NULL,
     editora VARCHAR(128) NOT NULL,
     categoria VARCHAR(128) NOT NULL,
-    ano_publicacao YEAR NOT NULL,
-    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ano_publicacao YEAR NOT NULL
 );
